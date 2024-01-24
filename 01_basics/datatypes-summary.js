@@ -35,3 +35,12 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 console.log(typeof heros);
+
+
+//Stack(Primitive),   Heap(Non-Primitive)
+
+let youtubeName = "Javascript Concepts";
+let anotherName = youtubeName
+anotherName ="chai aur code" 
+
+console.log(youtubeName);
