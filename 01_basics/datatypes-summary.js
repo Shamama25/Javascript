@@ -44,3 +44,16 @@ let anotherName = youtubeName
 anotherName ="chai aur code" 
 
 console.log(youtubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
