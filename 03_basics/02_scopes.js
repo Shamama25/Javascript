@@ -9,9 +9,46 @@ if(true){
     // console.log("Inner: " ,a);
 }
 
-for(let i=0; i<Array.length; i++){
-    const element = array[i];
-}
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
+
+function one(){
+    const username = "shamama"
+
+    function two(){
+        const website = "github"
+        console.log(username);
+    }
+    // console.log(website);
+
+    two()
+}
+
+// one()
+
+if(true) {
+    const username = "shamama"
+    if(username === "shamama"){
+        const website = "github"
+        console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
+
+
+
+
+
+//-----------Interesting---------------
+
+function addone(num){
+    return num + 1
+}
+console.log(addone(5));
+
+const addTwo = function(num){
+    return num + 2
+}
+addTwo(5)
